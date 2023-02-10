@@ -25,7 +25,7 @@ Background:
 
     Examples: 
       | user  | password | palabraComparacion |
-      | admin | serenity | Pedidos            |
+      | admin | serenity | Pedido            |
 
   @CP_003
   Scenario Outline: Crear un cliente nuevo en la sesion Northwind
@@ -35,7 +35,7 @@ Background:
 
     Examples: 
       | user  | password | idCliente | nombreEmpresa | nombreDeContacto | tituloContacto | direccion  | pais      | ciudad      | telefono |
-      | admin | serenity |      ABC | Choucair      | Camilo           | Automatizador  | avBAStreet | Argentina | BuenosAires |   201400 |
+      | admin | serenity |      ABC | TesterSAS      | Camilo           | Automatizador  | avBAStreet | Argentina | BuenosAires |   201400 |
 
   @CP_004
   Scenario Outline: Agregar una tarea nueva en el HomePage

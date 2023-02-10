@@ -27,6 +27,7 @@ public class IngresarNuevaTarea implements Task {
 				Enter.theValue(tarea).into(INPUT_TAREA),
 				Hit.the(Keys.ENTER).into(BTN_ADD)
 				);		
+		System.out.println("Tarea Ingresada!");
 	}
 
 	public static IngresarNuevaTarea ingresarNuevaTarea(String tarea) {

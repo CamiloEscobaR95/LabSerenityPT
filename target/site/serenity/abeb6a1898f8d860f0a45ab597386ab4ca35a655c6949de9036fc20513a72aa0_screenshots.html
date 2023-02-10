@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-02-2023 17:43</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-02-2023 16:25</span>
     <br style="clear:left"/>
 </div>
 
@@ -203,9 +203,9 @@ para realizar la validacion del funcionamiento del portal
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Validar la traduci&oacute;n del idioma ingles al idioma espa&ntilde;ol
+                                <span class="failing-color">Validar la traduci&oacute;n del idioma ingles al idioma espa&ntilde;ol
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -226,31 +226,70 @@ para realizar la validacion del funcionamiento del portal
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: 'Pedido' but: was 'Orders'</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>stepdefinitions.FuncionalidadesStep.elUsuarioPulsaElBotonDeTraducirIdioma(FuncionalidadesStep.java:74)<br />✽.El usuario pulsa el boton de traducir idioma Pedido(src/test/resources/features/Funcionalidades.feature:24)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2411427346302259551.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="46024c69f77232a8480dd1d2f522ce8fa75fef5358f185e19068dd2cd439446a.png" title=" Example: {user=admin, password=serenity, palabraComparacion=Pedidos}" width="1034"/>
+                <img src="46024c69f77232a8480dd1d2f522ce8fa75fef5358f185e19068dd2cd439446a.png" title=" Example: {user=admin, password=serenity, palabraComparacion=Pedido}" width="1034"/>
                 <img src="46024c69f77232a8480dd1d2f522ce8fa75fef5358f185e19068dd2cd439446a.png" title=" Given Un usuario ingresa a ala web de serenity" width="1034"/>
                 <img src="46024c69f77232a8480dd1d2f522ce8fa75fef5358f185e19068dd2cd439446a.png" title=" usuario opens the Login page" width="1034"/>
-                <img src="aa83d39f8ea84ca280292411123e11dc4684e150739dec261a55a1c4a3ac0583.png" title=" Given Un usuario ingresa a ala web de serenity (completed)" width="1360"/>
-                <img src="aa83d39f8ea84ca280292411123e11dc4684e150739dec261a55a1c4a3ac0583.png" title=" When Hace login admin serenity" width="1360"/>
-                <img src="aa83d39f8ea84ca280292411123e11dc4684e150739dec261a55a1c4a3ac0583.png" title=" Usuario realizar login" width="1360"/>
-                <img src="aa83d39f8ea84ca280292411123e11dc4684e150739dec261a55a1c4a3ac0583.png" title=" usuario enters 'admin' into Input donde se ingresa el nombre de usuario" width="1360"/>
-                <img src="c16ae60af77ea1c0ee87262ec2093e2fa62f7c6d46f0f4b134903aad009da9f8.png" title=" usuario enters 'admin' into Input donde se ingresa el nombre de usuario (completed)" width="1360"/>
-                <img src="c16ae60af77ea1c0ee87262ec2093e2fa62f7c6d46f0f4b134903aad009da9f8.png" title=" usuario enters 'serenity' into Input donde se ingresa la contrase&ntilde;a" width="1360"/>
-                <img src="cbaeecbc444f1cc4940dd1c246d6a6feb2f3a188488065a6e92e807f48cab8cb.png" title=" usuario enters 'serenity' into Input donde se ingresa la contrase&ntilde;a (completed)" width="1360"/>
-                <img src="cbaeecbc444f1cc4940dd1c246d6a6feb2f3a188488065a6e92e807f48cab8cb.png" title=" usuario clicks on Boton de login" width="1360"/>
+                <img src="00b23b0ecc2f2ace9895ac9de15e9228710f466ea80f2d784bc07e05a8739a44.png" title=" Given Un usuario ingresa a ala web de serenity (completed)" width="1360"/>
+                <img src="00b23b0ecc2f2ace9895ac9de15e9228710f466ea80f2d784bc07e05a8739a44.png" title=" When Hace login admin serenity" width="1360"/>
+                <img src="00b23b0ecc2f2ace9895ac9de15e9228710f466ea80f2d784bc07e05a8739a44.png" title=" Usuario realizar login" width="1360"/>
+                <img src="00b23b0ecc2f2ace9895ac9de15e9228710f466ea80f2d784bc07e05a8739a44.png" title=" usuario enters 'admin' into Input donde se ingresa el nombre de usuario" width="1360"/>
+                <img src="4ecbea9880d181d98f9310bfafd2ef5c15c2c38704342ce8c0e71137e9057b19.png" title=" usuario enters 'admin' into Input donde se ingresa el nombre de usuario (completed)" width="1360"/>
+                <img src="4ecbea9880d181d98f9310bfafd2ef5c15c2c38704342ce8c0e71137e9057b19.png" title=" usuario enters 'serenity' into Input donde se ingresa la contrase&ntilde;a" width="1360"/>
+                <img src="bd61e6e6eb45ad3cc9538d4c9b86f10e51ab91fface348c0aeb1f0ef85127844.png" title=" usuario enters 'serenity' into Input donde se ingresa la contrase&ntilde;a (completed)" width="1360"/>
+                <img src="bd61e6e6eb45ad3cc9538d4c9b86f10e51ab91fface348c0aeb1f0ef85127844.png" title=" usuario clicks on Boton de login" width="1360"/>
                 <img src="ca01d423903edfefc54abd51414034d042783d10d802331e404ebc12a17692d4.png" title=" usuario clicks on Boton de login (completed)" width="1360"/>
                 <img src="ca01d423903edfefc54abd51414034d042783d10d802331e404ebc12a17692d4.png" title=" Usuario realizar login (completed)" width="1360"/>
                 <img src="ca01d423903edfefc54abd51414034d042783d10d802331e404ebc12a17692d4.png" title=" When Hace login admin serenity (completed)" width="1360"/>
-                <img src="ca01d423903edfefc54abd51414034d042783d10d802331e404ebc12a17692d4.png" title=" Then El usuario pulsa el boton de traducir idioma Pedidos" width="1360"/>
-                <img src="09097ebb5f11dde4f75d2e96786fdbc4be9374085abe12816e50d4e4d9ec9041.png" title=" Usuario idioma" width="1360"/>
-                <img src="09097ebb5f11dde4f75d2e96786fdbc4be9374085abe12816e50d4e4d9ec9041.png" title=" usuario clicks on Boton de traduccion" width="1360"/>
-                <img src="87dc6109c7e260d33a80a85656894bffab3274607ac7e5ecf1830e7ea3af785e.png" title=" usuario clicks on Boton de traduccion (completed)" width="1360"/>
-                <img src="87dc6109c7e260d33a80a85656894bffab3274607ac7e5ecf1830e7ea3af785e.png" title=" usuario clicks on Boton de traduccion al espa&ntilde;ol" width="1360"/>
-                <img src="64ed6c8ff06c3ff1a51a178d1c17c2425abcfba03f42982a4ed228ddcce30be3.png" title=" usuario clicks on Boton de traduccion al espa&ntilde;ol (completed)" width="1360"/>
-                <img src="6376f391898858d276c23d72e1a208f171ab1409d056aae4dd019b219ed00407.png" title=" Usuario idioma (completed)" width="1360"/>
-                <img src="6376f391898858d276c23d72e1a208f171ab1409d056aae4dd019b219ed00407.png" title=" Then El usuario pulsa el boton de traducir idioma Pedidos (completed)" width="1360"/>
-                <img src="6376f391898858d276c23d72e1a208f171ab1409d056aae4dd019b219ed00407.png" title=" Example: {user=admin, password=serenity, palabraComparacion=Pedidos} (completed): <span class='success-color'>SUCCESS</span>" width="1360"/>
+                <img src="ca01d423903edfefc54abd51414034d042783d10d802331e404ebc12a17692d4.png" title=" Then El usuario pulsa el boton de traducir idioma Pedido" width="1360"/>
+                <img src="ca01d423903edfefc54abd51414034d042783d10d802331e404ebc12a17692d4.png" title=" Usuario idioma" width="1360"/>
+                <img src="869fa95b75be28ecfe3ba2d38ca421dbf5d51aeaab8594fc7e32812f505edac4.png" title=" usuario clicks on Boton de traduccion" width="1360"/>
+                <img src="e6e9ac73423744353306c8f7575bb991c56c1689a6ba44edf9fffdf1c1ee4b66.png" title=" usuario clicks on Boton de traduccion (completed)" width="1360"/>
+                <img src="e6e9ac73423744353306c8f7575bb991c56c1689a6ba44edf9fffdf1c1ee4b66.png" title=" usuario clicks on Boton de traduccion al espa&ntilde;ol" width="1360"/>
+                <img src="c3f347d4b11bafd5bd6a77400860163201ca745fc4996568b8c278fdd137c530.png" title=" usuario clicks on Boton de traduccion al espa&ntilde;ol (completed)" width="1360"/>
+                <img src="c3f347d4b11bafd5bd6a77400860163201ca745fc4996568b8c278fdd137c530.png" title=" Usuario idioma (completed)" width="1360"/>
+                <img src="7ceea0f12e2450a58cdeafb8e2db5b9a732e1160e3cc3f8b3efa732a87a27b6c.png" title=" Then validar traduccion should be 'Pedido'" width="1360"/>
+                <img src="e0c59c539c8410d1ece71ba374c221fe70b138964a6fcaf7209fdd6c1ed8d448.png" title=" Then validar traduccion should be 'Pedido' (completed): <span class='failing-color'>FAILURE</span>" width="1360"/>
             </div>
         </div>
 

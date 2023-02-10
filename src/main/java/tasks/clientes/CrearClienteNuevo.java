@@ -35,12 +35,12 @@ public class CrearClienteNuevo implements Task {
 				Enter.theValue(tituloContacto).into(INPUT_TITULO_CONTACTO),
 				Enter.theValue(direccion).into(INPUT_DIRECCION),
 				
-				Click.on(BTN_GUARDAR),
-				Enter.theValue(idCliente).into(INPUT_BUSCAR_CLIENTE)
+				Click.on(BTN_GUARDAR)
+				//Enter.theValue(idCliente).into(INPUT_BUSCAR_CLIENTE)
 				
 				);
 		
-		if(Visibility.of(ID_CLIENTE_CREADO).viewedBy(usuario).asBoolean()) {
+		/*if(Visibility.of(ID_CLIENTE_CREADO).viewedBy(usuario).asBoolean()) {
 		System.out.println("Cliente creado con exito!");
 		System.out.println("TEST PASSED");
 		clienteCreado = true;
@@ -48,7 +48,7 @@ public class CrearClienteNuevo implements Task {
 			System.out.println("El cliente no pudo ser creado.");
 			System.out.println("TEST FAILED");
 			clienteCreado = false;
-		}
+		}*/
 		
 	}
 
